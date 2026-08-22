@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "8773e383-b7e7-44af-ad5b-4d5f56a24e6b")
 	(paper "A4")
+	(title_block
+		(title "Seven Segment Display")
+		(date "2026-08-21")
+		(rev "${PROJECT_REV}")
+		(company "Vynte")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers

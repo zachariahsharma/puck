@@ -5,10 +5,10 @@
 	(uuid "25eaca85-d617-4fff-8dd9-d1f31cfc8927")
 	(paper "A5")
 	(title_block
-		(title "Vynte Puck")
-		(date "2026-02-19")
+		(title "Puck")
+		(date "2026-08-21")
+		(rev "${PROJECT_REV}")
 		(company "Vynte")
-		(comment 1 "Designed by: Zachariah Sharma")
 	)
 	(lib_symbols
 		(symbol "ESP32-C6-MINI-1:ESP32-C6-MINI-1"
