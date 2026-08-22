@@ -7,6 +7,12 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "Puck")
+		(date "2026-08-21")
+		(rev "${PROJECT_REV}")
+		(company "Vynte")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
@@ -1526,6 +1532,14 @@
 		(path "/f2ed0faa-b78c-4288-b8c9-890d2c3461e4/6b0f7082-dd7f-445b-8514-f3afd386388d")
 		(sheetname "/Type C Recepticle (No Flash)/")
 		(sheetfile "Type C Recepticle.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "A5" "A6" "A7" "A8" "A4_B9" "B4_A9" "B8" "B7" "B6" "B5" "S1" "S2"
+					"S3" "S4" "A1_B12" "B1_A12"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -3486,6 +3500,12 @@
 		(path "/b6890b3f-9fdf-4fc8-9ca3-8c96bb115ede/d4986d7e-87c7-4848-ada4-9e11f193a3ad")
 		(sheetname "/Temp Sensor/")
 		(sheetfile "Temp Sensor.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "7" "6" "5" "2" "1" "8" "3" "4")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8758,6 +8778,19 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "ee29466e-412c-4dda-9563-a9c6a7a23d02")
+	)
+	(gr_text "${PROJECT_REV}"
+		(at 154.75 76 90)
+		(layer "F.SilkS")
+		(uuid "10312279-4fe4-4715-98a8-da1150a20ba0")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
 	)
 	(segment
 		(start 166.45 60.48)
