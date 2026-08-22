@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "e21a5076-f1e6-4a2f-b58c-2943a6475982")
 	(paper "A4")
+	(title_block
+		(title "Type C Recepticle")
+		(date "2026-08-21")
+		(rev "${PROJECT_REV}")
+		(company "Vynte")
+	)
 	(lib_symbols
 		(symbol "PCM_JLCPCB-Resistors:0603,5.1kΩ"
 			(pin_numbers
