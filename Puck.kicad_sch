@@ -1854,16 +1854,8 @@
 		(uuid "8c20d388-b7eb-47ac-b389-9f5a133f388c")
 	)
 	(no_connect
-		(at 177.8 36.83)
-		(uuid "a4d3329b-41cb-4e4b-bc89-1bc179c03bb1")
-	)
-	(no_connect
 		(at 121.92 34.29)
 		(uuid "af08d157-6b2f-47c3-92f3-69223958338d")
-	)
-	(no_connect
-		(at 177.8 39.37)
-		(uuid "bc87aeac-b972-41ca-adb1-019fc4f811e8")
 	)
 	(no_connect
 		(at 121.92 54.61)
@@ -1927,6 +1919,16 @@
 		)
 		(uuid "a21dc448-842c-4bca-9e42-989878ca2d8f")
 	)
+	(label "D+"
+		(at 177.8 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "027c555f-97fa-46fc-878a-888ee9cabdb1")
+	)
 	(label "IO3"
 		(at 121.92 41.91 180)
 		(effects
@@ -1946,6 +1948,16 @@
 			(justify right bottom)
 		)
 		(uuid "4df0ae26-136d-41fc-a80b-b27d790f6b7f")
+	)
+	(label "D-"
+		(at 54.61 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "71ec4a82-b226-445d-93db-fa617878f615")
 	)
 	(label "IO3"
 		(at 95.25 26.67 0)
@@ -1986,6 +1998,16 @@
 			(justify right bottom)
 		)
 		(uuid "94e9cd49-7cd3-4f1d-a7c4-f407d24bc353")
+	)
+	(label "D-"
+		(at 177.8 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "963fb7c7-0e8b-44fe-8b18-21b273f87ec2")
 	)
 	(label "IO19"
 		(at 177.8 62.23 0)
@@ -2066,6 +2088,16 @@
 			(justify right bottom)
 		)
 		(uuid "f4c1b74a-28e1-4b81-a1ab-b7fd2dd42827")
+	)
+	(label "D+"
+		(at 54.61 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb43f219-3f40-47b7-b2f0-34ad3b77192a")
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
@@ -3356,7 +3388,7 @@
 			(color 255 255 194 1)
 		)
 		(uuid "f2ed0faa-b78c-4288-b8c9-890d2c3461e4")
-		(property "Sheetname" "Type C Recepticle (No Flash)"
+		(property "Sheetname" "Type C Recepticle"
 			(at 29.21 23.4184 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3376,6 +3408,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "D+" input
+			(at 54.61 25.4 0)
+			(uuid "44644431-ba9e-4fce-96a6-dabad326d467")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "D-" input
+			(at 54.61 29.21 0)
+			(uuid "d9530ec2-84e3-4234-8620-84d82ddc4f90")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

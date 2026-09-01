@@ -1123,22 +1123,6 @@
 		(uuid "0315ec3f-7282-4f38-84ac-e7226282ece3")
 	)
 	(no_connect
-		(at 158.75 99.06)
-		(uuid "0f7bd8d2-75e4-4ca9-907a-d355e5791754")
-	)
-	(no_connect
-		(at 123.19 101.6)
-		(uuid "301a1aad-8919-4ea0-b3dd-8bab696160cc")
-	)
-	(no_connect
-		(at 158.75 101.6)
-		(uuid "4b3e3d0b-ccb7-4192-93e6-495be6c39cf0")
-	)
-	(no_connect
-		(at 123.19 99.06)
-		(uuid "dff09836-d985-47c7-aa1b-5c6c4cd55878")
-	)
-	(no_connect
 		(at 123.19 104.14)
 		(uuid "f984f4ad-d0f3-4f38-b0d7-27de2b9312f7")
 	)
@@ -1261,6 +1245,50 @@
 			(type default)
 		)
 		(uuid "e7a2753a-5c47-4697-9b4c-299648613051")
+	)
+	(hierarchical_label "D-"
+		(shape input)
+		(at 158.75 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ba2d1e69-52f7-4439-8ba0-c82e32f0ac8e")
+	)
+	(hierarchical_label "D-"
+		(shape input)
+		(at 123.19 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bbf59015-e606-4d9c-8e5f-b686667355f4")
+	)
+	(hierarchical_label "D+"
+		(shape input)
+		(at 123.19 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dfc886a6-966a-408e-ad16-94b9c7a38e58")
+	)
+	(hierarchical_label "D+"
+		(shape input)
+		(at 158.75 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ecd1a4d0-c873-44f0-aeea-eeb813461717")
 	)
 	(symbol
 		(lib_id "power:GND")
