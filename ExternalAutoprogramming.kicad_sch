@@ -508,6 +508,14 @@
 			(embedded_fonts no)
 		)
 	)
+	(no_connect
+		(at 156.21 97.79)
+		(uuid "e620bc9c-a6a9-4932-86d4-ba1b808832b8")
+	)
+	(no_connect
+		(at 156.21 95.25)
+		(uuid "fa023de4-3f38-4ee1-9cf5-a9d7c36f9b57")
+	)
 	(wire
 		(pts
 			(xy 146.05 100.33) (xy 156.21 100.33)
@@ -547,28 +555,6 @@
 			(type default)
 		)
 		(uuid "9b317747-d655-4f0f-96c6-6d2a1bcc2b89")
-	)
-	(hierarchical_label "TX"
-		(shape bidirectional)
-		(at 156.21 97.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5b6c9835-798a-4773-81b8-408c3f827baf")
-	)
-	(hierarchical_label "RX"
-		(shape bidirectional)
-		(at 156.21 95.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "aa9014e0-3b0c-4a5b-abe4-e2aa76e564e0")
 	)
 	(hierarchical_label "BOOT"
 		(shape bidirectional)

@@ -2161,6 +2161,10 @@
 		(uuid "74576e7f-3b3a-4e26-a7a1-b56db5f5b798")
 	)
 	(no_connect
+		(at 177.8 29.21)
+		(uuid "76f66737-4079-4227-a8b5-8c288dbd44b6")
+	)
+	(no_connect
 		(at 177.8 36.83)
 		(uuid "a4d3329b-41cb-4e4b-bc89-1bc179c03bb1")
 	)
@@ -2179,6 +2183,10 @@
 	(no_connect
 		(at 121.92 57.15)
 		(uuid "fb02f09c-7aa3-4987-8bb6-c5dd83c3e8c0")
+	)
+	(no_connect
+		(at 177.8 31.75)
+		(uuid "feeffd67-d35f-4a32-a312-17615168aa78")
 	)
 	(wire
 		(pts
@@ -2230,16 +2238,6 @@
 		)
 		(uuid "a21dc448-842c-4bca-9e42-989878ca2d8f")
 	)
-	(label "TX"
-		(at 177.8 29.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0bf5d86c-62f0-4238-8789-cbfba347af65")
-	)
 	(label "BOOT"
 		(at 177.8 72.39 0)
 		(effects
@@ -2249,16 +2247,6 @@
 			(justify left bottom)
 		)
 		(uuid "0c049474-dd2d-4297-bc9c-a3ab115fb982")
-	)
-	(label "RX"
-		(at 177.8 31.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "15225494-da88-4e8f-a150-c5d41516b8ce")
 	)
 	(label "IO3"
 		(at 121.92 41.91 180)
@@ -2279,16 +2267,6 @@
 			(justify left bottom)
 		)
 		(uuid "337bf4cd-2402-4bf5-8e10-e93c0825ce7d")
-	)
-	(label "RX"
-		(at 46.99 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3a0a3d80-dbc9-4608-8358-6031f4bdb104")
 	)
 	(label "BOOT"
 		(at 29.21 77.47 180)
@@ -2439,16 +2417,6 @@
 			(justify right bottom)
 		)
 		(uuid "f4c1b74a-28e1-4b81-a1ab-b7fd2dd42827")
-	)
-	(label "TX"
-		(at 46.99 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f6abeb99-19f7-48f5-8f25-72699aa5118f")
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
@@ -4139,26 +4107,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "RX" bidirectional
-			(at 46.99 77.47 0)
-			(uuid "c0d909b4-8fbc-499c-8ebe-a28c50d125a9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "TX" bidirectional
-			(at 46.99 80.01 0)
-			(uuid "2cd7b743-3e22-4086-b7d6-02721f63f23e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(instances
