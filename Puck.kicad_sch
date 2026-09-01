@@ -2157,12 +2157,20 @@
 		(uuid "62ce151b-190c-4b94-aa43-f72e14dd7a3d")
 	)
 	(no_connect
+		(at 177.8 52.07)
+		(uuid "661a1b7e-568b-4c57-b7c7-74d24ce00d28")
+	)
+	(no_connect
 		(at 177.8 54.61)
 		(uuid "74576e7f-3b3a-4e26-a7a1-b56db5f5b798")
 	)
 	(no_connect
 		(at 177.8 29.21)
 		(uuid "76f66737-4079-4227-a8b5-8c288dbd44b6")
+	)
+	(no_connect
+		(at 177.8 72.39)
+		(uuid "8c20d388-b7eb-47ac-b389-9f5a133f388c")
 	)
 	(no_connect
 		(at 177.8 36.83)
@@ -2238,16 +2246,6 @@
 		)
 		(uuid "a21dc448-842c-4bca-9e42-989878ca2d8f")
 	)
-	(label "BOOT"
-		(at 177.8 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0c049474-dd2d-4297-bc9c-a3ab115fb982")
-	)
 	(label "IO3"
 		(at 121.92 41.91 180)
 		(effects
@@ -2257,26 +2255,6 @@
 			(justify right bottom)
 		)
 		(uuid "28f2c5f0-c946-4107-8f8d-3983324d21cd")
-	)
-	(label "IO9"
-		(at 177.8 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "337bf4cd-2402-4bf5-8e10-e93c0825ce7d")
-	)
-	(label "BOOT"
-		(at 29.21 77.47 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "42ddfc28-9989-4f12-b35f-4450c4cd7c4a")
 	)
 	(label "IO4"
 		(at 60.96 104.14 180)
@@ -4087,16 +4065,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "BOOT" bidirectional
-			(at 29.21 77.47 180)
-			(uuid "d02c7cb3-2e47-4002-96a6-cd36be706eaa")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "EN" input

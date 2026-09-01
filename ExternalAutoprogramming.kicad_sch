@@ -509,6 +509,10 @@
 		)
 	)
 	(no_connect
+		(at 175.26 97.79)
+		(uuid "2f726bc0-534e-4399-8687-cba3b90a5a82")
+	)
+	(no_connect
 		(at 156.21 97.79)
 		(uuid "e620bc9c-a6a9-4932-86d4-ba1b808832b8")
 	)
@@ -555,17 +559,6 @@
 			(type default)
 		)
 		(uuid "9b317747-d655-4f0f-96c6-6d2a1bcc2b89")
-	)
-	(hierarchical_label "BOOT"
-		(shape bidirectional)
-		(at 175.26 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b4e82c93-4d7b-4867-bfd2-f5db6a74e9a3")
 	)
 	(hierarchical_label "EN"
 		(shape input)
