@@ -740,7 +740,7 @@
         "uuid": "25eaca85-d617-4fff-8dd9-d1f31cfc8927"
       }
     ],
-    "used_designators": "SW1-2,LED1,C1,C3-7,R3-9,J3-4,#PWR1-25,U1-5",
+    "used_designators": "SW1-2,LED1,C1-7,R1,R3-9,J3-4,#PWR1-25,U1-5",
     "variants": []
   },
   "sheets": [
@@ -759,10 +759,6 @@
     [
       "b6890b3f-9fdf-4fc8-9ca3-8c96bb115ede",
       "Temp Sensor"
-    ],
-    [
-      "eb3792a5-e75f-4ae8-8f3a-21b6b3ca61aa",
-      "ExternalAutoprogramming (Low-Profile Female)"
     ],
     [
       "3e59ed00-ae5f-4840-b330-15a1c0b227ed",
