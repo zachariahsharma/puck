@@ -11,12 +11,13 @@
 		(company "Vynte")
 	)
 	(lib_symbols
-		(symbol "Device:C"
+		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
 				(offset 0.254)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -24,7 +25,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 0.635 2.54 0)
+				(at 0.254 1.778 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -34,8 +35,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -46,7 +47,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -67,7 +68,7 @@
 					)
 				)
 			)
-			(property "Description" "Unpolarized capacitor"
+			(property "Description" "Unpolarized capacitor, small symbol"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -78,7 +79,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "cap capacitor"
+			(property "ki_keywords" "capacitor cap"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -100,13 +101,13 @@
 					)
 				)
 			)
-			(symbol "C_0_1"
+			(symbol "C_Small_0_1"
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.508)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -115,10 +116,10 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.508)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -126,10 +127,10 @@
 					)
 				)
 			)
-			(symbol "C_1_1"
+			(symbol "C_Small_1_1"
 				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
+					(at 0 2.54 270)
+					(length 2.032)
 					(name ""
 						(effects
 							(font
@@ -146,8 +147,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
+					(at 0 -2.54 90)
+					(length 2.032)
 					(name ""
 						(effects
 							(font
@@ -1319,7 +1320,7 @@
 		(at 201.93 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "81f2d1ba-f27f-4dfe-a366-7ae712128070")
+		(uuid "5505b771-7580-46fa-a860-c501a928511d")
 	)
 	(no_connect
 		(at 162.56 77.47)
@@ -1368,16 +1369,6 @@
 			(type default)
 		)
 		(uuid "a33bda9c-3c45-41e7-b4a4-b7754ce82483")
-	)
-	(wire
-		(pts
-			(xy 201.93 85.09) (xy 201.93 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e31d1508-3450-4ab1-913c-4158dc96e35d")
 	)
 	(label "DIG1"
 		(at 162.56 62.23 180)
@@ -1769,7 +1760,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 201.93 88.9 0)
+		(at 201.93 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1780,7 +1771,7 @@
 		(fields_autoplaced yes)
 		(uuid "5f4616f3-f71a-4127-9481-f5ca15a9b306")
 		(property "Reference" "#PWR017"
-			(at 201.93 95.25 0)
+			(at 201.93 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1791,7 +1782,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 201.93 93.98 0)
+			(at 201.93 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1801,7 +1792,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 88.9 0)
+			(at 201.93 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1812,7 +1803,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 88.9 0)
+			(at 201.93 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1823,7 +1814,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 201.93 88.9 0)
+			(at 201.93 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1924,8 +1915,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 201.93 81.28 0)
+		(lib_id "Device:C_Small")
+		(at 201.93 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1934,9 +1925,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "94953458-994d-4a9b-b2c1-47e2a71daf92")
+		(uuid "888602ad-e1f5-4413-8d7d-08c6431b8eda")
 		(property "Reference" "C1"
-			(at 205.74 80.0099 0)
+			(at 204.47 78.7462 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1946,8 +1937,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1 uF"
-			(at 205.74 82.5499 0)
+		(property "Value" "1uF"
+			(at 204.47 81.2862 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1957,8 +1948,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:C_0603"
-			(at 202.8952 85.09 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 201.93 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1969,7 +1960,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 81.28 0)
+			(at 201.93 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1979,8 +1970,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 201.93 81.28 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 201.93 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1989,45 +1980,12 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "MPN" "CL10A105KB8NNNC"
-			(at 205.74 82.5499 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 205.74 82.5499 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C15849"
-			(at 205.74 82.5499 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2fc52455-2d17-421a-bfa2-06f8e0e5102a")
 		)
 		(pin "1"
-			(uuid "258bde65-0c04-40ff-8a29-e4216ef7f57f")
+			(uuid "a30b1d80-afb1-4270-be23-081ccd31e550")
+		)
+		(pin "2"
+			(uuid "bff76282-6f28-4974-b3c4-7b8c4d625fc5")
 		)
 		(instances
 			(project "Puck"
