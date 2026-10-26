@@ -1054,7 +1054,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
+		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -1079,7 +1079,7 @@
 					)
 				)
 			)
-			(property "Value" "+5V"
+			(property "Value" "+3.3V"
 				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1111,7 +1111,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1133,7 +1133,7 @@
 					)
 				)
 			)
-			(symbol "+5V_0_1"
+			(symbol "+3.3V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1171,7 +1171,7 @@
 					)
 				)
 			)
-			(symbol "+5V_1_1"
+			(symbol "+3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1840,7 +1840,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "power:+3.3V")
 		(at 201.93 69.85 0)
 		(unit 1)
 		(body_style 1)
@@ -1850,7 +1850,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "68e08b15-8ca1-4acf-b618-cbede98bfdc8")
+		(uuid "6c4b535a-b9a4-40e8-aaca-a4cb83f26af0")
 		(property "Reference" "#PWR010"
 			(at 201.93 73.66 0)
 			(hide yes)
@@ -1862,7 +1862,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+3.3V"
 			(at 201.93 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1894,7 +1894,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 201.93 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -1906,7 +1906,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "bffa4d74-e60f-4c11-8aad-9c37aa7ffa19")
+			(uuid "a47afa26-cbaa-457c-af5a-a741559511e6")
 		)
 		(instances
 			(project "Puck"

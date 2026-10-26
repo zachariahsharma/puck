@@ -11,6 +11,161 @@
 		(comment 1 "Designed by: Zachariah Sharma")
 	)
 	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ESP32-C6-MINI-1:ESP32-C6-MINI-1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2131,6 +2286,24 @@
 		(color 0 0 0 0)
 		(uuid "33462b66-3e38-43e8-8895-f185f3168eb0")
 	)
+	(junction
+		(at 135.89 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "420c7784-7c78-43b5-befb-758e3e58bf8f")
+	)
+	(junction
+		(at 146.05 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "582ed21b-b4b6-423b-aae3-e92b5b156907")
+	)
+	(junction
+		(at 135.89 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ee45b6b-69ac-4c7c-9a8a-49db4b5ee9ea")
+	)
 	(no_connect
 		(at 139.7 44.45)
 		(uuid "1dc3e2b2-f10c-4cca-91f0-acd4f287626d")
@@ -2138,6 +2311,10 @@
 	(no_connect
 		(at 170.18 54.61)
 		(uuid "31a3bc92-7a3f-4786-8d3d-5f9a25b3e292")
+	)
+	(no_connect
+		(at 139.7 67.31)
+		(uuid "47408aef-1944-4a17-91e7-b96e98514939")
 	)
 	(no_connect
 		(at 170.18 67.31)
@@ -2181,16 +2358,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 31.75) (xy 154.94 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43f30ac7-b210-4697-a513-758eddf0f1d0")
-	)
-	(wire
-		(pts
 			(xy 73.66 104.14) (xy 71.12 104.14)
 		)
 		(stroke
@@ -2221,6 +2388,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 20.32) (xy 154.94 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f62369b-958d-41ce-91fe-120aef15d1c2")
+	)
+	(wire
+		(pts
 			(xy 41.91 104.14) (xy 41.91 106.68)
 		)
 		(stroke
@@ -2238,6 +2415,36 @@
 			(type default)
 		)
 		(uuid "a21dc448-842c-4bca-9e42-989878ca2d8f")
+	)
+	(wire
+		(pts
+			(xy 135.89 27.94) (xy 146.05 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e66c7301-2bcd-422b-bcd2-747e0b102f23")
+	)
+	(wire
+		(pts
+			(xy 135.89 20.32) (xy 146.05 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9925489-f760-461e-a519-549d2c04c5e6")
+	)
+	(wire
+		(pts
+			(xy 154.94 20.32) (xy 154.94 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbd14266-5d7f-4719-b9b0-668bcb8aaaa5")
 	)
 	(label "IO19"
 		(at 170.18 62.23 0)
@@ -2569,7 +2776,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:SW_TS-1187A-B-A-B_2term"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H7.3mm"
 			(at 66.04 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -2602,7 +2809,7 @@
 				)
 			)
 		)
-		(property "MPN" "TS-1187A-B-A-B"
+		(property "MPN" "B3F-4055"
 			(at 66.04 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -2613,7 +2820,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "XKB Connection"
+		(property "Manufacturer" "Omron Electronics"
 			(at 66.04 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -2624,7 +2831,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C318884"
+		(property "DigiKey" "SW414-ND"
 			(at 66.04 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -3053,6 +3260,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 135.89 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43dee1f0-9eec-4b5a-947e-e2d3c31b4916")
+		(property "Reference" "#PWR025"
+			(at 135.89 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d0a29957-169c-402f-a264-51abd646473a")
+		)
+		(instances
+			(project "Puck"
+				(path "/25eaca85-d617-4fff-8dd9-d1f31cfc8927"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ESP32-C6-MINI-1:ESP32-C6-MINI-1")
 		(at 154.94 59.69 0)
 		(unit 1)
@@ -3352,7 +3638,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:SW_TS-1187A-B-A-B_2term"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H7.3mm"
 			(at 66.04 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -3385,7 +3671,7 @@
 				)
 			)
 		)
-		(property "MPN" "TS-1187A-B-A-B"
+		(property "MPN" "B3F-4055"
 			(at 66.04 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -3396,7 +3682,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "XKB Connection"
+		(property "Manufacturer" "Omron Electronics"
 			(at 66.04 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -3407,7 +3693,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C318884"
+		(property "DigiKey" "SW414-ND"
 			(at 66.04 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -3428,84 +3714,6 @@
 			(project "Puck"
 				(path "/25eaca85-d617-4fff-8dd9-d1f31cfc8927"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 154.94 31.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7eecdbe8-32ce-48ca-b58d-05a6c977b244")
-		(property "Reference" "#PWR018"
-			(at 154.94 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 154.94 26.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 154.94 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bee8c121-2eb7-44b6-9370-d515b1d87f7f")
-		)
-		(instances
-			(project "Puck"
-				(path "/25eaca85-d617-4fff-8dd9-d1f31cfc8927"
-					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -3586,6 +3794,234 @@
 			(project "Puck"
 				(path "/25eaca85-d617-4fff-8dd9-d1f31cfc8927"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 135.89 24.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b10d8a0d-1730-4fd9-b009-1a3b8eb44ef8")
+		(property "Reference" "C7"
+			(at 138.43 22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ".1uF"
+			(at 138.43 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:C_0603"
+			(at 136.8552 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 135.89 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10B104KB8NNNC"
+			(at 136.8552 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 136.8552 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "1276-1000-2-ND"
+			(at 136.8552 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5c49a0f8-8f52-4c73-90bf-0afb135718b4")
+		)
+		(pin "2"
+			(uuid "b745ae16-8de7-4b02-a98a-277bb2ec686c")
+		)
+		(instances
+			(project "Puck"
+				(path "/25eaca85-d617-4fff-8dd9-d1f31cfc8927"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 146.05 24.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d05d5b01-8274-4fa7-a06b-785950d58c40")
+		(property "Reference" "C3"
+			(at 148.59 22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 148.59 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:C_0603"
+			(at 147.0152 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 146.05 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A475KO8NNNC"
+			(at 147.0152 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 147.0152 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "1276-1784-2-ND"
+			(at 147.0152 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e5d25bfa-e25c-49ad-b7d5-388ba7bb1c92")
+		)
+		(pin "2"
+			(uuid "d5f11edd-902d-4dc2-87d3-63074c78fe14")
+		)
+		(instances
+			(project "Puck"
+				(path "/25eaca85-d617-4fff-8dd9-d1f31cfc8927"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -3942,6 +4378,84 @@
 			(project "Puck"
 				(path "/25eaca85-d617-4fff-8dd9-d1f31cfc8927"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 135.89 20.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f753fa28-b5f1-4fad-adee-1c148b025912")
+		(property "Reference" "#PWR018"
+			(at 135.89 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 135.89 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 135.89 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f6fcddce-a60e-4f85-b9bd-e1f56ad89cff")
+		)
+		(instances
+			(project "Puck"
+				(path "/25eaca85-d617-4fff-8dd9-d1f31cfc8927"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
