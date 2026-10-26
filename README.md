@@ -14,6 +14,6 @@ Open `Puck.kicad_pro` in KiCad. The main schematic and PCB are `Puck.kicad_sch` 
 
 This snapshot preserves the saved local design as of October 26, 2026. Its source branch started at `d32a3a6`, while Gitea main had advanced by 14 commits to `c4a697f`. Combining the branches produces conflicts in `Puck.kicad_pcb`, `Puck.kicad_sch`, and `Puck.kicad_pro`. The saved design is submitted as a pull request for review; it has not been reconciled with or merged into main.
 
-The public GitHub copy starts with a clean snapshot and excludes earlier development history. Gitea remains the development repository. Local backups, analysis caches, and per-user KiCad settings are excluded.
+The public GitHub copy includes the development history and branch tips. Credential files have been removed throughout that history. Imported commits use Zachariah K. Sharma’s GitHub identity; original authors are credited in commit-message trailers. Rewriting this metadata changes commit IDs while preserving dates, changes, and merge structure. `main` retains the saved local design; `gitea-main` retains the upstream main branch, and the other development branches are also available. Gitea remains the development repository. Local backups, analysis caches, and per-user KiCad settings are excluded.
 
 No open-source license has been selected.
